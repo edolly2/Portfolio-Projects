@@ -1,0 +1,37 @@
+.btn {
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  width: 12rem;
+  height: 3.2rem;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.red:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+}
+
+.gray {
+  background-color: gray;
+}
+
+.outlined {
+  background-color: transparent;
+  color: red;
+  border: 2px solid red;
+}
+
+.outlined:hover {
+  background-color: red;
+  color: white;
+}
